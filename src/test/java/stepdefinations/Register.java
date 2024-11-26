@@ -39,7 +39,7 @@ public class Register {
 	}
 	
 	@Given("User navigates to Register Account page")
-	public void User_navigates_to_Register_Account_page() {
+	public void User_navigates_to_Register_Account_page () {
 		landingPage = new LandingPage(driver);
 		landingPage.clickOnMyAccountDropMenu();
 		registerPage = landingPage.selectRegisterOption();
